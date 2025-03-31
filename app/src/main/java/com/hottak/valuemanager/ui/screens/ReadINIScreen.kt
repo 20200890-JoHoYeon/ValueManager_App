@@ -22,9 +22,8 @@ import java.io.InputStreamReader
 fun ReadINIScreen() {
     val context = LocalContext.current
     Scaffold(
-        containerColor = Color(0xFFF5F5F5), // 연한 회색 배경
+        containerColor = Color.White, // 연한 회색 배경
         modifier = Modifier.fillMaxSize(),
-        bottomBar = {},
         content = { innerPadding ->
             ReadFileContent(
                 context = context,
@@ -61,7 +60,7 @@ fun SectionHeader(title: String) {
         modifier = Modifier
             .fillMaxWidth()
             .padding(vertical = 8.dp)
-            .background(Color(0xFF2196F3), shape = MaterialTheme.shapes.medium),
+            .background(Color(0xFF4166B2), shape = MaterialTheme.shapes.medium),
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
         Text(
