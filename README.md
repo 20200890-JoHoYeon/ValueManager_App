@@ -36,7 +36,8 @@ Click [here]( ) to visit my project.
 
 
 ## Version 1.0
-1. INI 파일에서 데이터 추출
+![이미지 1](https://github.com/user-attachments/assets/d5c9a6f4-9d7f-4abe-8da2-ed8c3901438d)
+1. valueManager INI 파일에서 추출한 데이터 UI에 출력하는 읽기 기능
 
 
 Finally, I will register a photo showing the progress of the project. Thank you for your review. 😘
