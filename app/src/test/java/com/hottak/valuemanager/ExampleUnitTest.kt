@@ -1,4 +1,4 @@
-package com.example.valuemanager
+package com.hottak.valuemanager
 
 import org.junit.Test
 

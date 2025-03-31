@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.valuemanager"
+    namespace = "com.hottak.valuemanager"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.example.valuemanager"
+        applicationId = "com.hottak.valuemanager"
         minSdk = 24
         targetSdk = 35
         versionCode = 1
@@ -40,7 +40,7 @@ android {
 }
 
 dependencies {
-
+    implementation("androidx.navigation:navigation-compose:2.5.0")
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.activity.compose)

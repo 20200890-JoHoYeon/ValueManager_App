@@ -1,4 +1,4 @@
-package com.example.valuemanager.ui.theme
+package com.hottak.valuemanager.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
